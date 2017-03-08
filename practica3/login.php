@@ -28,12 +28,20 @@
 			if ($filas!=null){
 				echo "Libros que tiene "; 
 				echo $_POST['user'];
-				
-				echo "te lo sabeees";
+				echo ": \n";
+				$sql="SELECT Titulo FROM libros, tiene WHERE tiene.user='$user' AND tiene.id=libros.id";
+				$consulta=mysqli_query($db, $sql);
+				echo "<ul>";
+				while ($lib=mysqli_fetch_object($consulta)){
+		
+					echo "<li>$lib->Titulo </li>";
+				};
+				echo "</ul>";
 			}else{
 				echo "no me mieeeentas";
 			}
 		}
+		@mysqli_close($db);
 	?>
 </body>
 </html>
