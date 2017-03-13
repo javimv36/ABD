@@ -8,7 +8,8 @@
   </head>
   <body>
 <h1>Login baby</h1>
-<a href="alta.php">Dar de alta un libro</a>
+<a href="altaLibro.php">Dar de alta un libro</a>
+<a href="altaUsuario.php">Dar de alta un usuario</a>
 	<form method="post" action="login.php">
 		<p><input type="text" name="user" value="" placeholder="Usuario"></p>
 		<p><input type="password" name="password" value="" placeholder="Contraseña"></p>

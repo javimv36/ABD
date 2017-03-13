@@ -2,13 +2,13 @@
 <html lang = "es">
   <head>
       <title>
-        Alta - Pr3
+        Alta libro - Pr3
       </title>
       <meta charset="utf-8">
   </head>
   <body>
 <h1>Nuevo libro</h1>
-	<form method="post" action="alta.php">
+	<form method="post" action="altaLibro.php">
 		<p><input type="text" name="titulo" value="" placeholder="Título"></p>
 		<p><input type="text" name="id" value="" placeholder="id"></p>
 		<p class="submit"><input type="submit" name="commit" value="Añadir libro"></p>
