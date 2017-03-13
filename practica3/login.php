@@ -8,6 +8,7 @@
   </head>
   <body>
 <h1>Login baby</h1>
+<a href="alta.php">Dar de alta un libro</a>
 	<form method="post" action="login.php">
 		<p><input type="text" name="user" value="" placeholder="Usuario"></p>
 		<p><input type="password" name="password" value="" placeholder="Contraseña"></p>
@@ -18,7 +19,7 @@
 		$procesando=isset($_POST['user'])?$_POST['password']:null;
 
 		if($procesando!=null){
-			
+
 			$user=$_POST['user'];
 			$pass=$_POST['password'];
 			$db = @mysqli_connect('localhost','root','','libreria');
@@ -26,14 +27,14 @@
 			$consulta=mysqli_query($db, $sql);
 			$filas = mysqli_fetch_array($consulta);
 			if ($filas!=null){
-				echo "Libros que tiene "; 
+				echo "Libros que tiene ";
 				echo $_POST['user'];
 				echo ": \n";
 				$sql="SELECT Titulo FROM libros, tiene WHERE tiene.user='$user' AND tiene.id=libros.id";
 				$consulta=mysqli_query($db, $sql);
 				echo "<ul>";
 				while ($lib=mysqli_fetch_object($consulta)){
-		
+
 					echo "<li>$lib->Titulo </li>";
 				};
 				echo "</ul>";
