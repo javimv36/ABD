@@ -1,0 +1,19 @@
+.tripticos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.triptico {
+    min-width: 200px;
+    width: 32%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3);
+    background-color: white;
+    border: 0.3px solid #BDBDBD;
+    height: 450px;
+    overflow-y: auto;
+}

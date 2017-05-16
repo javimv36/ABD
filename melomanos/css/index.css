@@ -1,0 +1,71 @@
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(../fonts/titulo.ttf);
+}
+
+@font-face {
+    font-family: fuenteParrafo;
+    src: url(../fonts/parrafo.otf);
+}
+
+@font-face {
+    font-family: fuenteLogo;
+    src: url(../fonts/logo.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #BBDEFB;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-family: fuenteTitulo;
+}
+
+p,
+ul li {
+    font-family: fuenteParrafo;
+}
+
+.sidebar {
+    min-width: 200px;
+    width: 20%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3);
+    background-color: white;
+    height: 450px;
+    overflow-y: auto;
+}
+
+.container {
+    min-width: 200px;
+    width: 70%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3);
+    background-color: white;
+}
+
+.footer {
+    background-color: #1976d2;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-family: fuenteTitulo;
+    color: white;
+}
+
+.hecho{
+    color: #ffc107;
+}
