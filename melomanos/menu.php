@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <link id="estilo-menu" rel="stylesheet" type="text/css" href="css/menu.css" />
 <div id="menu">
 <a class="tituloMenu" href="index.php">Melómanos</a>

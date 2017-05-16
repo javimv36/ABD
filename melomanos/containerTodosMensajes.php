@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <div class="container">
     <h1>Mensajes públicos</h1>
      <?php

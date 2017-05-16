@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <div class="footer">
     <h1>Práctica Ampliación de Bases de Datos</h1>
     <h2>Javier Martín Villarreal</h2>

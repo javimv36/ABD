@@ -1,3 +1,5 @@
+/*Author: Javier Martín Villarreal*/
+
 .login-page {
     width: 360px;
     padding: 8% 0 0;
@@ -14,9 +16,11 @@
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.form input[type=checkbox]{
-     font-family: fuenteParrafo;
+
+.form input[type=checkbox] {
+    font-family: fuenteParrafo;
 }
+
 .form input,
 .form textarea {
     font-family: fuenteParrafo;

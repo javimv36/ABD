@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <link id="estilo-lista-mensajes" rel="stylesheet" type="text/css" href="css/lista-mensajes.css" />
 <?php
  if (isset($_SESSION["name"])){

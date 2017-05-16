@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <link id="estilo-lista-usuarios" rel="stylesheet" type="text/css" href="css/lista-usuarios.css" />
 <?php
  if (isset($_SESSION["name"])){

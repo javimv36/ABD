@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <?php session_start();?>
 <html lang="es">
 

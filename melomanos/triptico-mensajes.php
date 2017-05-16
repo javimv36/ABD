@@ -1,3 +1,4 @@
+<!--Author: Javier Martín Villarreal-->
 <?php 
 	if (isset($_SESSION["login"])){
         echo '<link id="estilo-triptico" rel="stylesheet" type="text/css" href="css/triptico.css" />';
