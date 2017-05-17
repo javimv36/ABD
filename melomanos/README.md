@@ -33,6 +33,8 @@ En la variable $_SESSION se almacena el nombre de usuario, si es administrador o
 
 La base de datos consta de dos entidades: usuarios y grupos y dos relaciones: mensaje y pertenece.
 
+![Esquema relacional](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/relacion.png?raw=true)
+
 Las entidades usuarios y grupos tienen la siguiente estructura:
 
 - Usuarios:
