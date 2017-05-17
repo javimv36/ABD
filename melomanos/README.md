@@ -66,13 +66,13 @@ Las relaciones mensajes y pertenece tienen la siguiente estructura:
 ### Ejemplo de contenido de las tablas
 
 Usuarios: 
-![Imagen de la tabla usuarios](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaUser.png?raw=true)
+![Imagen de la tabla usuarios](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaUser.png?raw=true =250x)
 
 Grupos:
-![Imagen de la tabla grupos](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaGrupos.png?raw=true)
+![Imagen de la tabla grupos](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaGrupos.png?raw=true =250x)
 
 Pertenece:
-![Imagen de la tabla pertenece](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaPertenece.png?raw=true)
+![Imagen de la tabla pertenece](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaPertenece.png?raw=true =250x)
 
 Mensajes:
-![Imagen de la tabla mensajes](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaMensajes.png?raw=true)
+![Imagen de la tabla mensajes](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaMensajes.png?raw=true =250x)
