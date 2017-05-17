@@ -60,3 +60,17 @@ Las relaciones mensajes y pertenece tienen la siguiente estructura:
     - User: referencia a la clave primaria del usuario. Clave primaria de la relación.
     - Grupo: referencia a la clave primaria de un grupo. Clave primaria de la relación.
 * En el proceso de registro, se insertan las tuplas que cumplan los requisitos de edad y gustos del usuario.
+
+### Ejemplo de contenido de las tablas
+
+Usuarios: 
+![]()
+
+Grupos:
+![]()
+
+Pertenece:
+![]()
+
+Mensajes:
+![]()
