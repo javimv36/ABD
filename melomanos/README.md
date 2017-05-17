@@ -66,6 +66,7 @@ Las relaciones mensajes y pertenece tienen la siguiente estructura:
 ### Ejemplo de contenido de las tablas
 
 Usuarios: 
+<img src="https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaUser.png" alt="Imagen de la tabla usuarios" style="width: 200px;"/>
 ![Imagen de la tabla usuarios](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaUser.png =250x)
 
 Grupos:
