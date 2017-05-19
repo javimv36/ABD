@@ -116,9 +116,7 @@ Si el usuario es administrador, tendrá una opción extra en el menú superior p
 
 ![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/creargrupo.png)
 
-~~~~
-Las imágenes de los usuarios y de los grupos se almacenan en rutas específicas con el nombre de la clave primaria de la entidad en cuestión ahorrandonos campos innecesarios para esta práctica.
-~~~~
+> Las imágenes de los usuarios y de los grupos se almacenan en rutas específicas con el nombre de la clave primaria de la entidad en cuestión ahorrandonos campos innecesarios para esta práctica.
 
 ---
 
