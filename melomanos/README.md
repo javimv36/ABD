@@ -2,13 +2,7 @@
 Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional.
 Licencia: http://creativecommons.org/licenses/by/4.0/
 -->
-
-# Práctica Ampliación Bases de Datos
-## Universidad Complutense de Madrid
-## Javier Martín Villarreal
----
-
-# Memoria práctica individual
+# Memoria práctica individual - Ampliación de Bases de Datos
 
 La práctica consiste en realizar una web de mensajería para melómanos. En la web los usuarios registrados y logueados, podrán enviar mensajes públicos, mensajes a un sólo usuario del sistema y mensajes a los grupos a los que pertenezca.
 
@@ -117,6 +111,11 @@ Si el usuario es administrador, tendrá una opción extra en el menú superior p
 ![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/creargrupo.png)
 
 > Las imágenes de los usuarios y de los grupos se almacenan en rutas específicas con el nombre de la clave primaria de la entidad en cuestión ahorrandonos campos innecesarios para esta práctica.
+
+---
+
+## Universidad Complutense de Madrid
+## Javier Martín Villarreal
 
 ---
 
