@@ -1,3 +1,8 @@
+<!--
+Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional.
+Licencia: http://creativecommons.org/licenses/by/4.0/
+-->
+
 # Práctica Ampliación Bases de Datos
 ## Universidad Complutense de Madrid
 ## Javier Martín Villarreal
@@ -65,14 +70,57 @@ Las relaciones mensajes y pertenece tienen la siguiente estructura:
 
 ### Ejemplo de contenido de las tablas
 
-Usuarios: 
+Usuarios:
+
 ![Imagen de la tabla usuarios](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaUser.png)
 
 Grupos:
+
 ![Imagen de la tabla grupos](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaGrupos.png)
 
 Pertenece:
+
 ![Imagen de la tabla pertenece](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaPertenece.png)
 
 Mensajes:
+
 ![Imagen de la tabla mensajes](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/tablaMensajes.png)
+
+## 3. Interfaz utilizada
+
+En la práctica se pide una implementación de interfaz libre. Esta se divide en un menú en la barra superior que añadirá funciones según se haya logueado o no el usuario y sea administrador; un pie de página y una zona central con una barra lateral que muestra los usuarios y un bloque donde se mostrará el contenido.
+
+![Imagen de index sin iniciar sesión](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/indexNologged.png)
+
+Página de login de la aplicación. Si el login no es correcto vuelve a esta página, si lo es redirecciona a index.
+
+![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/login.png)
+
+Página de inicio de la aplicación con un usuario normal (en este ejemplo el usuario no tiene mensajes grupales).
+
+![Página de inicio de usuario logueado](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/userindex.png)
+
+Página de inicio de la aplicación con un usuario administrador (tiene la opción extra de crear un grupo). Todos ven la lista de usuarios a la izquierda y un tríptico en el centro con los mensajes públicos, privados y a los grupos que pertenece (de izquierda a derecha). En el menú podrá crear un nuevo mensaje (público o privado), mensajes a grupos y ver los mensajes públicos y privados; también puede cerrar sesión.
+
+![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/adminindex.png)
+
+Página para enviar un mensaje, si se deja seleccionado “Todos”, el mensaje será público, también se puede elegir cualquier usuario de la lista de selección.
+
+![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/mensaje.png)
+
+Página para enviar un mensaje a un grupo, cargará una lista de selección con los id de los grupos a los que pertenece el usuario registrado.
+
+![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/mensajegrupo.png)
+
+Si el usuario es administrador, tendrá una opción extra en el menú superior para añadir un nuevo grupo a la base de datos.
+
+![Página de login de la aplicación](https://github.com/javimv36/ABD/blob/master/melomanos/img/files/creargrupo.png)
+
+~~
+Las imágenes de los usuarios y de los grupos se almacenan en rutas específicas con el nombre de la clave primaria de la entidad en cuestión ahorrandonos campos innecesarios para esta práctica.
+~~
+
+---
+
+[![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/)
