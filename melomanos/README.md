@@ -2,7 +2,8 @@
 Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional.
 Licencia: http://creativecommons.org/licenses/by/4.0/
 -->
-# Memoria práctica individual - Ampliación de Bases de Datos
+# Práctica Ampliación de Bases de Datos
+# Memoria 
 
 La práctica consiste en realizar una web de mensajería para melómanos. En la web los usuarios registrados y logueados, podrán enviar mensajes públicos, mensajes a un sólo usuario del sistema y mensajes a los grupos a los que pertenezca.
 
